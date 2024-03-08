@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: Milits-MacBook-Pro
 
 steps:
 - script: echo Hello, world!
