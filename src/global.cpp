@@ -1,5 +1,6 @@
-#include <iostream>
-#include <string>
+#include<string>
+#include<iostream>
+
 
 #include "./../include/global.hh"
 
@@ -16,7 +17,11 @@ Date getDateFromUser(){
     std::cout <<"YEAR: ";
     std::cin >> inputDate.year;
 
-    std::cout<<"The date you issued this book is " <<inputDate.day << "/" << inputDate.month << "/" << inputDate.year << std::endl;
+    std::cout<<"Today's Date is " <<inputDate.day << "/" << inputDate.month << "/" << inputDate.year << std::endl;
 
     return inputDate;
+}
+
+int main(){
+    Date inputDate = getDateFromUser();
 }

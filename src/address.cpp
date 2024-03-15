@@ -42,7 +42,7 @@ void address::print()
     cout << "                  ";
     cout << "State: " << state << "\n";
     cout << "                  ";
-    cout << "Pin Code: " << postCode << "\n";
+    cout << "Post Code: " << postCode << "\n";
     cout << "                  ";
     return;
 }
@@ -56,7 +56,7 @@ string address::addToStr()
         if (i == ',')
             i = '^';
     return add;
-}
+} 
 void address::strToAdd(string str)
 {
     stringstream s(str);
